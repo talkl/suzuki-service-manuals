@@ -1,0 +1,13 @@
+{
+  "name": "jimny-service-manual-printer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "print": "node print-manual.js",
+    "debug": "node print-manual.js --debug"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "puppeteer": "^24.0.0"
+  }
+}
