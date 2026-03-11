@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "print": "node print-manual.js",
-    "debug": "node print-manual.js --debug"
+    "debug": "node print-manual.js --debug",
+    "generate": "node generate-site.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
